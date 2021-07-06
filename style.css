@@ -43,14 +43,69 @@ body{
     padding: 10px 30px;
     border-radius: 40px;
     font-weight: 700PX;
+    
 }
 .about-me img{
     width: 50%;
     
 }
 .about-me{
+    margin-top: 20%;
     background-image: url(images/shapes/7.png);
 }
 .recipe{
     text-align: center;
+  
+}
+.recipe-item{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    
+    
+}
+.recipe-item img{
+    width: 90%;
+   margin-top: 20px;
+   margin-bottom: 5px;
+   margin-right: 5px;
+   margin-left: 12px;
+    border-radius: 15px;
+}
+
+
+.recipe-button{
+    background-image: linear-gradient(orangered,orange);
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1px 10px;
+    border-radius: 4px;
+    
+    
+}
+footer{
+    text-align: center;
+
+    height: 200px;
+    background-image: linear-gradient(black,black);
+  
+}
+.ontext{
+    color: whitesmoke;
+  
+
+}
+.optional-item{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 10px;
+}
+#optional-item-container{
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 40px gray;
 }
