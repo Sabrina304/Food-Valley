@@ -36,11 +36,21 @@ body{
     display: flex;
     margin-bottom: 150px;
 }
-.order-button{
+.button{
     background-image: linear-gradient(orangered,orange);
     text-decoration: none;
     color: whitesmoke;
     padding: 10px 30px;
     border-radius: 40px;
     font-weight: 700PX;
+}
+.about-me img{
+    width: 50%;
+    
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+}
+.recipe{
+    text-align: center;
 }
